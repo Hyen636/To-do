@@ -4,6 +4,6 @@ interface ItodoItemContent {
 
 interface ITodoItem extends ItodoItemContent {
   id: string;
-  competed: boolean;
+  completed: boolean;
   editing: boolean;
 }
