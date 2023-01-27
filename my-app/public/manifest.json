@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "To-Do", //모바일로 설치하였을때의 이름
+  "name": "오늘의 할일 :: To-Do",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#ff0000", //모바일 브라우저에 나오는 탭 색이기도 함
   "background_color": "#ffffff"
 }

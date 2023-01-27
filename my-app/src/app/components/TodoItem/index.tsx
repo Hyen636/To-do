@@ -30,7 +30,7 @@ export default function TodoItem({ todo }: { todo: ITodoItem }) {
     <Box>
       <Checkbox checked={todo.completed} />
       <Block marginLeft="10px" />
-      <TodoContent checked={todo.completed}>{todo.content}.</TodoContent>
+      <TodoContent checked={todo.completed}>{todo.content}</TodoContent>
     </Box>
   );
 }
