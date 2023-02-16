@@ -63,7 +63,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && yarn run workbox",
+    "build": "CI=false react-scripts build && CI=false yarn run workbox",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "workbox": "workbox generateSW workbox-config.ts",
